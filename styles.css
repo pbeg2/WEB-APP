@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.blue-border {
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: blue;
+    padding: 20px; /* Aumenta el espacio alrededor del contenido */
+    border-radius: 5px; /* Añade bordes redondeados al contenedor */
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+.blue-border h1 {
+    margin: 0; /* Elimina el margen predeterminado del titulillo */
+    padding-bottom: 10px; /* Añade un poco de espacio entre el titulillo y el input */
+}
+
+.blue-border input[type="text"], 
+.blue-border input[type="password"] {
+    background-color: white; /* Cambia el fondo del input a blanco */
+    color: black; /* Cambia el color del texto a negro */
+    padding: 10px; /* Añade un poco de espacio alrededor del texto */
+    border-radius: 5px; /* Añade bordes redondeados al fondo del texto */
+    border: 2px solid blue; /* Añade un borde alrededor del input */
+    width: 150px; /* Ajusta el ancho del input */
+}
+
+.logout-button {
+    
+    color: black; /* Cambia el color del texto a blanco */
+    padding: 10px; /* Añade un poco de espacio alrededor del texto */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Añade bordes redondeados al botón */
+    cursor: pointer; /* Cambia el cursor al puntero al pasar sobre el botón */
+    margin-left: 10px; /* Espacio entre el nombre de usuario y el botón Logout */
+}
